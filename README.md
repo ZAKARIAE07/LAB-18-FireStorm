@@ -125,19 +125,9 @@ print(flag_data.val())
 Exécuter :
 bashpython get_flag.py
 Résultat
+
+
 <img width="756" height="206" alt="2" src="https://github.com/user-attachments/assets/3d20ab22-924a-4938-b533-bf668162f95a" />
-
-
 🏁 Flag
 PWNSEC{C0ngr4ts_Th4t_w45_4N_345y_P4$$w0rd_t0_G3t!!!_0R_!5_!t???}
 
-📁 Structure du repo
-FireStorm/
-├── README.md
-├── frida_firestorm.js      # Script Frida pour extraire le mot de passe
-├── get_flag.py             # Script Python pour récupérer le flag
-├── frida_output.png        # Capture — extraction du mot de passe
-└── flag_output.png         # Capture — flag récupéré
-
-🧠 Résumé des techniques utilisées
-ÉtapeOutilObjectifAnalyse statiqueJadx-GUIDécompiler l'APK, identifier Password()Hooking dynamiqueFridaForcer l'exécution via Java.choose()AuthentificationpyrebaseSe connecter à FirebaseRécupération du flagFirebase Realtime DBLire le flag après authentification réussie
